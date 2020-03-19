@@ -1,0 +1,17 @@
+{
+  "name": "api-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "baoqwer123 <baotq610@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
