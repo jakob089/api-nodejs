@@ -1,7 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const UserController = require('./../controllers/UserController');
+const UserController = require('../controllers/UserController');
+const ProductController = require('../controllers/ProductController');
 
-router.get('/users', UserController.findAll);
+// Router: Users 
+router.get('/user', UserController.findAll);
+
+// Router: Products 
+router.get('/product', ProductController.findAll);
 
 module.exports = router;
